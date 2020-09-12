@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="70dp"
+        android:text="Delete Account"
+        android:textColor="@color/colorBlack"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/add_username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+
+        android:ems="10"
+        android:hint="Masukan Username"
+
+        android:inputType="textPersonName"
+        android:letterSpacing="0.1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/colorGrey1"
+        android:textColorHint="@color/colorGrey1" />
+
+
+    <EditText
+        android:id="@+id/add_email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="15dp"
+
+        android:ems="10"
+        android:hint="Masukan Email"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/add_username"
+
+        android:letterSpacing="0.1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text=""
+        android:textColor="@color/colorGrey1"
+        android:textColorHint="@color/colorGrey1" />
+
+    <EditText
+        android:id="@+id/add_telp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/add_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="15dp"
+
+        android:ems="10"
+        android:hint="Masukan Telp"
+        android:inputType="number"
+
+        android:letterSpacing="0.1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text=""
+        android:textColor="@color/colorGrey1"
+        android:textColorHint="@color/colorGrey1" />
+
+
+
+</RelativeLayout>

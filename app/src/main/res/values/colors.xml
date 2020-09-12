@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey">#CECECE</color>
+    <color name="colorPrimaryDarkOpacity">#990000</color>
+    <color name="colorBlackOpacity">#99000000</color>
+    <color name="colortextorange">#f2890d</color>
+    <color name="colorGrey1">#505053</color>
+    <color name="colorGreenTheme">#399988</color>
+    <color name="colorGrey2">#d2d2d2</color>
+    <color name="colorRedDanger">#ff0000</color> FFCC00
+    <color name="colorWarning">#FFCC00</color>
+    <color name="colorYellowTheme1">#FFDD3C</color>
+
+
+    ///apps
+
+    <color name="colorLightGray">#f1f1f1</color>
+    <color name="colorDivision">#e0e0e0</color>
+    <color name="colorNavIcon">#1d1d1d</color>
+
+    <color name="colorGoogleSignIn">#d34836</color>
+    <color name="colorGoogleSignInPressed">#b02513</color>
+    <color name="colorEmailSignIn">#009688</color>
+    <color name="colorEmailSignInPressed">#004D40</color>
+
+    ///color text
+    <color name="colorbahan">#17202A </color>
+
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+<!--    <group android:checkableBehavior="single"-->
+
+    <item
+        android:id="@+id/bt_dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_home"/>
+
+
+
+    <item android:title="Daftar ">
+        <menu>
+            <item
+                android:id="@+id/bt_list_produk"
+                android:title="List Produk"
+                android:icon="@drawable/ic_list"/>
+            <item
+                android:id="@+id/bt_list_kategori"
+                android:title="List Kategori"
+                android:icon="@drawable/ic_list"/>
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/navigation_one"
+    android:icon="@drawable/l_produk2"
+    android:title="Produk"/>
+    <item
+        android:id="@+id/navigation_two"
+        android:icon="@drawable/l_kategori"
+        android:title="Kategori"/>
+    <item
+        android:id="@+id/navigation_three"
+        android:icon="@drawable/l_transaksi2"
+        android:title="Transaksi"/>
+    <item
+        android:id="@+id/navigation_four"
+        android:icon="@drawable/l_history2"
+        android:title="History"/>
+</menu>

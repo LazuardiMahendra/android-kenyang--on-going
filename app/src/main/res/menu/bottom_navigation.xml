@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_menu"
+        android:title="@string/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/resep_menu"
+        android:title="@string/resep"
+        android:enabled="true"
+        android:icon="@drawable/ic_book"/>
+
+    <item
+        android:id="@+id/addresep_menu"
+        android:title="Add Recipe"
+        android:enabled="true"
+        android:icon="@drawable/ic_tambah"/>
+
+    <item
+        android:id="@+id/notifikasi_menu"
+        android:title="@string/notification"
+        android:enabled="true"
+        android:icon="@drawable/ic_notifications"/>
+
+    <item
+        android:id="@+id/profil_menu"
+        android:title="@string/profil"
+        android:enabled="true"
+        android:icon="@drawable/ic_account"/>
+
+</menu>
